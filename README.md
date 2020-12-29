@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._filebeat-install.yml
+  - _TODO: Enter the playbook file: filebeat-install.yml
 ---
 - name: installing and launching filebeat
   hosts: webservers
@@ -50,8 +50,8 @@ Load balancing ensures that the application will be highly efficient, in additio
 - _TODO: What aspect of security do load balancers protect? Load balancers protect against emerging attacks. What is the advantage of a jump box?_A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log and system traffic.
-- _TODO: What does Filebeat watch for?_ Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
-- _TODO: What does Metricbeat record?_Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
+- _TODO: What does Filebeat watch for?: Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+- _TODO: What does Metricbeat record?: Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -68,10 +68,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_ 13.77.152.244
+- _TODO Add whitelisted IP addresses: 13.77.152.244
 
 Machines within the network can only be accessed by _ELK-SERVER922.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?  JumpBoxProvisioner IP address: 40.114.34.225
+- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?:  JumpBoxProvisioner IP address: 40.114.34.225
 A summary of the access policies in place can be found in the table below.
 
 | Name               | Publicly Accessible | Allowed IP Addresses |
@@ -83,22 +83,22 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_ 
+- _TODO: What is the main advantage of automating configuration with Ansible?: 
 
 The primary benefit of Ansible is it allows IT administrators to automate away the drudgery from their daily tasks. That frees them to focus on efforts that help deliver more value to the business by spending time on more important tasks.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.:
 
-Create a new virtual network and then add a peer conenction. 
+-Create a new virtual network and then add a peer conenction. 
 
-Create a new virtual machine to run ELK. Locate and start your ansible container. Place the new virtual machine in the backend pool of an existing Azure load balancing solution. 
+-Create a new virtual machine to run ELK. Locate and start your ansible container. Place the new virtual machine in the backend pool of an existing Azure load balancing solution. 
 
-Add the virtual machine to the Ansible Host file. Download and install docker.io, python3-pip and docker.
+-Add the virtual machine to the Ansible Host file. Download and install docker.io, python3-pip and docker.
 
-Run the ansible container and ensure that it is properly installed. 
+-Run the ansible container and ensure that it is properly installed. 
 
-Ensure the  ELK stack server is running by adding the virtual machines ip address and attach it to :5601/app/kibana.
+-Ensure the  ELK stack server is running by adding the virtual machines ip address and attach it to :5601/app/kibana.
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
@@ -107,7 +107,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- _TODO: List the IP addresses of the machines you are monitoring:
 
 Web-1 10.0.0.6
 Web-2 10.0.0.7
