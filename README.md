@@ -114,7 +114,9 @@ Web-2 10.0.0.7
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed:
+
 Filebeat
+
 Metricbeat
 
 These Beats allow us to collect the following information from each machine:
