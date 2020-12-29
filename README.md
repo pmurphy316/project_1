@@ -90,16 +90,15 @@ The primary benefit of Ansible is it allows IT administrators to automate away t
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
-Creating a New vNet
+Create a new virtual network and then add a peer conenction. 
 
-Creating a New VM
+Create a new virtual machine to run ELK. Locate and start your ansible container. Place the new virtual machine in the backend pool of an existing Azure load balancing solution. 
 
-Downloading and Configuring the Container
+Add the virtual machine to the Ansible Host file. Download and install docker.io, python3-pip and docker.
 
-Launching and Exposing the Container
+Run the ansible container and ensure that it is properly installed. 
 
-Identity and Access Management
-
+Ensure the  ELK stack server is running by adding the virtual machines ip address and attach it to :5601/app/kibana.
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
