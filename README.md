@@ -90,7 +90,7 @@ The primary benefit of Ansible is it allows IT administrators to automate away t
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.:
 
--Create a new virtual network and then add a peer conenction. 
+-Create a new virtual network and then add a peer connection. 
 
 -Create a new virtual machine to run ELK. Locate and start your ansible container. Place the new virtual machine in the backend pool of an existing Azure load balancing solution. 
 
