@@ -58,10 +58,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name           | Function | IP Address | Operating System |
 |----------      |----------|------------|------------------|
-| Jump Box       | Gateway  | 10.0.0.1   | Linux            |
-| Web-1          |          |            |                  |
-| Web-2          |          |            |                  |
-| ELK-SERVER     |          |            |                  |
+| Jump Box       | Gateway  | 10.0.0.8   | Linux            |
+| Web-1          |          | 10.0.0.6   | Linux            |
+| Web-2          |          | 10.0.0.7   | Linux            |
+| ELK-SERVER     |          | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
