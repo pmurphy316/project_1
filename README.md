@@ -90,12 +90,18 @@ The primary benefit of Ansible is it allows IT administrators to automate away t
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+
 Creating a New vNet
+
 Creating a New VM
+
 Downloading and Configuring the Container
+
 Launching and Exposing the Container
+
 Identity and Access Management
-- ...
+
+
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
