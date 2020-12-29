@@ -68,18 +68,17 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+- _TODO: Add whitelisted IP addresses_ 13.77.152.244
 
-Machines within the network can only be accessed by _ELK-SERVER____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
-
+Machines within the network can only be accessed by _ELK-SERVER922.
+- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?  JumpBoxProvisioner IP address: 40.114.34.225
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes                 |      40.114.34.225   |
-|          |                     |                      |
-|          |                     |                      |
+| Name               | Publicly Accessible | Allowed IP Addresses |
+|----------          |---------------------|----------------------|
+|JumpBoxProvisioner  | Yes                 |      40.114.34.225   |
+|                    |                     |                      |
+|                    |                     |                      |
 
 ### Elk Configuration
 
