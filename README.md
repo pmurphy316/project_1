@@ -116,7 +116,6 @@ We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed:
 
 Filebeat
-
 Metricbeat
 
 These Beats allow us to collect the following information from each machine:
@@ -145,3 +144,5 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running? http://13.77.152.244:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
+ansible-playbook filebeat-playbook.yml
